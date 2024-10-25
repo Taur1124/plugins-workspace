@@ -29,7 +29,7 @@ use tauri::{
     plugin::{Builder as PluginBuilder, TauriPlugin},
     Manager, RunEvent, Runtime,
 };
-use tokio::sync::{RwLock, Mutex};
+use tokio::sync::{Mutex, RwLock};
 
 use std::collections::HashMap;
 
