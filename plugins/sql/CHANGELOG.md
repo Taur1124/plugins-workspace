@@ -1,5 +1,9 @@
 # Changelog
 
+## \[2.0.2]
+
+- [`4341d7f5`](https://github.com/tauri-apps/plugins-workspace/commit/4341d7f500290165a94e05006abbfe7f40045fc9) ([#1972](https://github.com/tauri-apps/plugins-workspace/pull/1972) by [@cijiugechu](https://github.com/tauri-apps/plugins-workspace/../../cijiugechu)) Replace `Mutex` with `RwLock` to enable concurrent SQL execution.
+
 ## \[2.0.1]
 
 - [`a1a82208`](https://github.com/tauri-apps/plugins-workspace/commit/a1a82208ed4ab87f83310be0dc95428aec9ab241) ([#1873](https://github.com/tauri-apps/plugins-workspace/pull/1873) by [@lucasfernog](https://github.com/tauri-apps/plugins-workspace/../../lucasfernog)) Downgrade MSRV to 1.77.2 to support Windows 7.
